@@ -1,0 +1,20 @@
+- Extendemos a AbsQListWithSelection na class MusicLibrary, ArrayQListWithSelection 
+e PlaylistList para reduzir codigo repetido e redundante
+
+- Temos uma classe SongMaker para criar musicas e assim deixar o codigo mais modular
+
+- Decidimos que iriamos querer as SmartPlaylists sorted.
+
+- Fizemos equals nas classes Song, AbsQListWithSelection, MusicLibrary e Playlist
+
+- Decidimos que o nosso Rate seria um enumerado nao precisando entao de se implementar um equals,
+ com um rank de 0 a 5.
+
+- Decidimos implementar quase todos os metodos nas classes abstratas dando override nos metodos 
+e funcoes que possivelmente poderiam mudar de classe para classe.
+
+- Na MusicLibrary temos uma Song que eh a Song selecionada na MusicLibrary. 
+
+- Na AbsPlaylist temos uma Song que eh a selecionada da playlist.
+
+- Na classe PlaylistList extendemos AbsQListWithSelection tendo assim uma playlist selecionada.
