@@ -2,10 +2,7 @@
 
 ## Overview
 
-Este é um projeto Eclipse que contém o código e artefactos fornecidos para
-o Trabalho Prático 1, organizado de acordo com a solução de desenho fornecida.
-
-O objetivo deste trabalho é que os alunos exercitem a utilização das técnicas e
+O objetivo deste trabalho é exercitar a utilização das técnicas e
 dos princípios de programação OO lecionados na disciplina. O trabalho centra-se
 numa aplicação que é um gestor e reprodutor de músicas em suporte digital.
 
