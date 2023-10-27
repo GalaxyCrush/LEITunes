@@ -1,41 +1,43 @@
-# Trabalho Prático 1 @DCO-LEI-FCUL
+# Practical Work 1 @DCO-LEI-FCUL
 
 ## Overview
 
-O objetivo deste trabalho é exercitar a utilização das técnicas e
-dos princípios de programação OO lecionados na disciplina. O trabalho centra-se
-numa aplicação que é um gestor e reprodutor de músicas em suporte digital.
+The objective of this work is to exercise the use of techniques and
+of the OO programming principles taught in the course. The work focuses
+in an application that is a digital music manager and player.
 
-Esta versão contém uma interface gráfica (GUIClient) que suporta algumas das
-funcionalidades cobertas, nomeadamente ver o conteúdo da biblioteca, das
-playlists existentes, e tocar uma música a partir da biblioteca ou de uma
-playlist. Para além disso existe um programa cliente (SimpleClient) que
-exercita algumas funcionalidades da aplicação.
+This version contains a graphical interface (GUIClient) that supports some of the
+functionalities covered, namely viewing the contents of the library,
+existing playlists, and play a song from the library or a
+playlist. Furthermore, there is a client program (SimpleClient) that
+exercises some of the application's functionalities.
 
-### Decisões tomadas
+### Taken decisions
 
-- Extendemos a AbsQListWithSelection na class MusicLibrary, ArrayQListWithSelection
-e PlaylistList para reduzir codigo repetido e redundante
+- We extend AbsQListWithSelection in the MusicLibrary, ArrayQListWithSelection class
+and PlaylistList to reduce repeated and redundant code
 
-- Temos uma classe SongMaker para criar musicas e assim deixar o codigo mais modular
+- We have a SongMaker class to create songs and thus make the code more modular
 
-- Decidimos que iriamos querer as SmartPlaylists sorted.
+- We decided that we would want the SmartPlaylists sorted.
 
-- Fizemos equals nas classes Song, AbsQListWithSelection, MusicLibrary e Playlist
+- We made equals in the Song, AbsQListWithSelection, MusicLibrary and Playlist classes
 
-- Decidimos que o nosso Rate seria um enumerado nao precisando entao de se implementar um equals,
- com um rank de 0 a 5.
+- We decided that our Rate would be a listed one, therefore not needing to implement an equals,
+  with a rank of 0 to 5.
 
-- Decidimos implementar quase todos os metodos nas classes abstratas dando override nos metodos
-e funcoes que possivelmente poderiam mudar de classe para classe.
+- We decided to implement almost all methods in abstract classes by overriding the methods
+and functions that could possibly change from class to class.
 
-- Na MusicLibrary temos uma Song que eh a Song selecionada na MusicLibrary.
+- In MusicLibrary we have a Song that is the Song selected in MusicLibrary.
 
-- Na AbsPlaylist temos uma Song que eh a selecionada da playlist.
+- In AbsPlaylist we have a Song that is selected from the playlist.
 
-- Na classe PlaylistList extendemos AbsQListWithSelection tendo assim uma playlist selecionada.
+- In the PlaylistList class we extend AbsQListWithSelection, thus having a selected playlist.
 
-### Trabalho realizado por
+### Work done by
 
 - João Pereira @fc58189
 - Daniel Nunes @fc58257
+
+The final grade of this project was 16/20.
